@@ -6,11 +6,11 @@ que = {}
 admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME", "StarMuzik") 
+BOT_TOKEN = getenv("BOT_TOKEN", "5663061406:AAGCk4Yh1UWJBmQFHxuSqeVpBICChXoWxTU")
+BOT_NAME = getenv("BOT_NAME", "LionMusicBot") 
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "StarMuzikBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "lionmusiccbot")
 PMPERMIT = getenv("PMPERMIT", "ENABLE")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60))
 
